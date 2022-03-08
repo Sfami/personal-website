@@ -6,9 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Takalani's Personal Website</title>
     <link rel="stylesheet" href="style.css">
-
 </head>
 <body>
+    <!------------------------- Header / Navbar ------------------------------>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="#skills-section">SKILLS</a></li>
+                    <li><a href="#projects-section">PROJECTS</a></li>
+                    <li><a href="#blog-section">BLOG</a></li>
+                    <li><a href="#contact-section">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    </section>
     
+
+    <!-------------- JavaScript for Toggle Menu ------------------>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
 </body>
 </html>
