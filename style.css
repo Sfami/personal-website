@@ -211,11 +211,49 @@ h3 {
     font-weight: 600;
 }
 
-.icons .fa{
+/* .icons .fa{
     color: #f44336;
     margin: 0 13px;
     cursor: pointer;
     padding: 18px 0;
+} */
+
+.new-icons .twitter-icon {
+    color: #aaaaaa;
+    transition: color 0.2s;
+    text-decoration: none;
+}
+
+.new-icons .twitter-icon:hover {
+    color: #333333;
+}
+
+.new-icons .linkedin-icon {
+    color: #aaaaaa;
+    transition: color 0.2s;
+    text-decoration: none;}
+
+.new-icons .linkedin-icon:hover {
+    color: #333333;
+}
+
+.new-icons .facebook-icon {
+    color: #aaaaaa;
+    transition: color 0.2s;
+    text-decoration: none;
+}
+
+.new-icons .facebook-icon:hover {
+    color: #333333;
+}
+
+.new-icons .github-icon {
+    color: #aaaaaa;
+    transition: color 0.2s;
+    text-decoration: none;}
+
+.new-icons .github-icon:hover {
+    color: #333333;
 }
 
 .fa-heart-o{
